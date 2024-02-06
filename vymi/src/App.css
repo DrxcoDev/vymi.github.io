@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+#panelleft{
+  width: 300px;
+  height: 500px;
+  margin-left: 20px;
+  background: #1987549f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#panelright {
+  width: 900px;
+  height: 500px;
+  margin-top: -500px;
+  margin-left: 350px;
+  background: #1987549f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-group-item {
+  background: 1987549f;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  width: 22px;
+  height: 22px;
 }
 
-.App-link {
-  color: #61dafb;
+.name-file {
+  margin-top: -10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ms-10 {
+  margin-left: 100px;
+}
+
+textarea {
+  height: 400px;
+  resize: none;
+}
+
+textarea:active {
+  border: none;
+}
+
+textarea::selection {
+  background: #0b2010bb;
+  color: rgb(82, 183, 82);
+}
+
+/* SCROLLBAR TEXT AREA  */
+
+textarea::-webkit-scrollbar {
+  background: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #065b0052;
+  border-radius: 25px;
 }
